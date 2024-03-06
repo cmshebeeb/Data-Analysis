@@ -1,4 +1,4 @@
-select JobTitle,avg(Salary) as Avg
+select JobTitle,avg(Salary) as Avg 
 from da_tutorial.employeedemographics join
 da_tutorial.employeesalary 
 on employeedemographics.EmployeeID=employeesalary.EmployeeID
